@@ -14,7 +14,7 @@
 ## Getting Started
 
 - Click the link below to get started with a live demo
-  [homepage.html](https://livedemo.com)
+  [homepage.html](https://htmlpreview.github.io/?https://github.com/DebbyMiressa/MyPortfolio/blob/mobile-version/homepage.html)
 
 ### Prerequisites
 - Have git installed.
