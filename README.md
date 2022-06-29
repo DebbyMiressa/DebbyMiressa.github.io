@@ -13,8 +13,8 @@
 
 ## Getting Started
 
-- Click the link below to get started
-  /homepage.html
+- Click the link below to get started with a live demo
+  [homepage.html](https://livedemo.com)
 
 ### Prerequisites
 - Have git installed.

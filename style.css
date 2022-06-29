@@ -38,6 +38,7 @@
   width: 28px;
   height: 28px;
   padding: 0;
+  border: none;
   margin-right: 24px;
   top: 0;
   flex: none;
@@ -46,7 +47,7 @@
 }
 
 .button:enabled {
-  background-color: #f55800;
+  background-color: #3c3a39;
 }
 
 .button:hover {
@@ -124,12 +125,12 @@
   flex-direction: row;
   align-items: center;
   padding: 0;
-  width: 200px;
+  width: 250px;
   height: 40px;
   flex: none;
   order: 3;
   flex-grow: 0;
-  margin: 0 24px 120px;
+  margin: 0 0 120px;
 }
 
 .illustration {
@@ -138,4 +139,13 @@
   height: 312.03px;
   left: 227px;
   top: 222px;
+}
+
+ul#horizontal-list {
+  list-style: none;
+}
+
+ul#horizontal-list li {
+  display: inline;
+  padding: 5px;
 }
