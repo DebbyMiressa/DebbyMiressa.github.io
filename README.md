@@ -13,18 +13,8 @@
 
 ## Getting Started
 
-- Create a new GitHub repo. ('MyPortfolio')
-- Create a new branch ('mobile-version') in accordance to the GitHub flow rules.
-- Add a .gitignore file.
-- Set up a linter for HTML and CSS.
-- Add descriptive README file to your project.
-
-- Add 2 files (each one in a separate commit):
-- A .html file that includes a toolbar and a headline section.
-- A .css file that includes the stylesheet for the sections in the html file.
-- The node_modules directory is ignored by git, thus not pushed to the repo.
-- Open a pull request and send the pull request link for approval.
-
+- Click the link below to get started
+  /homepage.html
 
 ### Prerequisites
 - Have git installed.
