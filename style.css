@@ -10,11 +10,6 @@ body {
 .toolbar {
   display: flex;
   background-color: #3c3a39;
-  position: relative;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
   width: 375px;
   height: 48px;
   align-items: center;
@@ -24,7 +19,6 @@ body {
   display: flex;
   flex-direction: row;
   padding: 10px 12px;
-  position: relative;
   width: 121px;
   height: 44px;
   left: 12px;
@@ -84,12 +78,12 @@ body {
   align-items: flex-start;
   padding: 0;
   gap: 12px;
-  position: relative;
   width: 375px;
   height: 604px;
-  left: 0;
-  top: 0;
   background: #1c1a19;
+  background-image: url("images/illustration.png");
+  background-position: bottom right;
+  background-repeat: no-repeat;
 }
 
 #primarytext {
@@ -150,14 +144,6 @@ body {
   order: 3;
   flex-grow: 0;
   margin: 0 0 120px;
-}
-
-.illustration {
-  position: absolute;
-  width: 406.89px;
-  height: 312.03px;
-  left: 227px;
-  top: 222px;
 }
 
 .tags li {
@@ -451,17 +437,14 @@ ul#horizontal-list li {
 }
 
 .stories2 {
-  position: absolute;
-  top: 940px;
-  width: 295px;
+  display: flex;
+  flex-direction: column;
   height: 81px;
   font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  display: flex;
-  flex-direction: column;
   align-items: center;
   color: #fff;
   flex: none;
@@ -470,11 +453,11 @@ ul#horizontal-list li {
   padding: 0;
   padding-left: 12px;
   margin: 24px;
+  margin-top: 84px;
+  margin-bottom: 12px;
 }
 
 .passage2 {
-  position: absolute;
-  top: 1055px;
   width: 295px;
   height: 87px;
   font-family: "Inter", sans-serif;
@@ -489,17 +472,17 @@ ul#horizontal-list li {
   padding: 0;
   padding-left: 12px;
   margin: 0 24px;
+  margin-bottom: 12px;
 }
 
 .tags2 {
-  position: absolute;
-  top: 1145px;
   list-style: none;
   display: flex;
   flex-direction: row;
   align-self: flex-start;
   padding: 0;
   margin: 12px 40px;
+  margin-bottom: 22px;
   gap: 12px;
   width: 297px;
   height: 40px;
@@ -508,8 +491,6 @@ ul#horizontal-list li {
 }
 
 #show2 {
-  position: absolute;
-  top: 1216px;
   display: flex;
   align-self: flex-start;
   text-align: center;
@@ -548,8 +529,6 @@ ul#horizontal-list li {
 }
 
 .stories3 {
-  position: absolute;
-  top: 1325px;
   width: 295px;
   height: 81px;
   font-family: "Crete Round", sans-serif;
@@ -567,11 +546,11 @@ ul#horizontal-list li {
   padding: 0;
   padding-left: 12px;
   margin: 24px;
+  margin-top: 84px;
+  margin-bottom: 12px;
 }
 
 .passage3 {
-  position: absolute;
-  top: 1440px;
   width: 295px;
   height: 87px;
   font-family: "Inter", sans-serif;
@@ -586,17 +565,17 @@ ul#horizontal-list li {
   padding: 0;
   padding-left: 12px;
   margin: 0 24px;
+  margin-bottom: 12px;
 }
 
 .tags3 {
-  position: absolute;
-  top: 1530px;
   list-style: none;
   display: flex;
   flex-direction: row;
   align-self: flex-start;
   padding: 0;
   margin: 12px 40px;
+  margin-bottom: 22px;
   gap: 12px;
   width: 297px;
   height: 40px;
@@ -605,8 +584,6 @@ ul#horizontal-list li {
 }
 
 #show3 {
-  position: absolute;
-  top: 1603px;
   display: flex;
   align-self: flex-start;
   text-align: center;
@@ -645,8 +622,6 @@ ul#horizontal-list li {
 }
 
 .stories4 {
-  position: absolute;
-  top: 1710px;
   width: 295px;
   height: 81px;
   font-family: "Crete Round", sans-serif;
@@ -664,11 +639,11 @@ ul#horizontal-list li {
   padding: 0;
   padding-left: 12px;
   margin: 24px;
+  margin-top: 84px;
+  margin-bottom: 12px;
 }
 
 .passage4 {
-  position: absolute;
-  top: 1825px;
   width: 295px;
   height: 87px;
   font-family: "Inter", sans-serif;
@@ -683,11 +658,10 @@ ul#horizontal-list li {
   padding: 0;
   padding-left: 12px;
   margin: 0 24px;
+  margin-bottom: 12px;
 }
 
 .tags4 {
-  position: absolute;
-  top: 1915px;
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -699,11 +673,10 @@ ul#horizontal-list li {
   height: 40px;
   order: 5;
   flex-grow: 0;
+  margin-bottom: 22px;
 }
 
 #show4 {
-  position: absolute;
-  top: 1988px;
   display: flex;
   align-self: flex-start;
   text-align: center;
@@ -742,8 +715,6 @@ ul#horizontal-list li {
 }
 
 .stories5 {
-  position: absolute;
-  top: 2095px;
   width: 295px;
   height: 81px;
   font-family: "Crete Round", sans-serif;
@@ -761,11 +732,11 @@ ul#horizontal-list li {
   padding: 0;
   padding-left: 12px;
   margin: 24px;
+  margin-top: 84px;
+  margin-bottom: 12px;
 }
 
 .passage5 {
-  position: absolute;
-  top: 2210px;
   width: 295px;
   height: 87px;
   font-family: "Inter", sans-serif;
@@ -780,11 +751,10 @@ ul#horizontal-list li {
   padding: 0;
   padding-left: 12px;
   margin: 0 24px;
+  margin-bottom: 12px;
 }
 
 .tags5 {
-  position: absolute;
-  top: 2300px;
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -796,11 +766,10 @@ ul#horizontal-list li {
   height: 40px;
   order: 5;
   flex-grow: 0;
+  margin-bottom: 22px;
 }
 
 #show5 {
-  position: absolute;
-  top: 2374px;
   display: flex;
   align-self: flex-start;
   text-align: center;
@@ -839,8 +808,6 @@ ul#horizontal-list li {
 }
 
 .stories6 {
-  position: absolute;
-  top: 2480px;
   width: 295px;
   height: 81px;
   font-family: "Crete Round", sans-serif;
@@ -858,11 +825,11 @@ ul#horizontal-list li {
   padding: 0;
   padding-left: 12px;
   margin: 24px;
+  margin-top: 84px;
+  margin-bottom: 12px;
 }
 
 .passage6 {
-  position: absolute;
-  top: 2595px;
   width: 295px;
   height: 87px;
   font-family: "Inter", sans-serif;
@@ -877,11 +844,10 @@ ul#horizontal-list li {
   padding: 0;
   padding-left: 12px;
   margin: 0 24px;
+  margin-bottom: 12px;
 }
 
 .tags6 {
-  position: absolute;
-  top: 2685px;
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -893,11 +859,10 @@ ul#horizontal-list li {
   height: 40px;
   order: 5;
   flex-grow: 0;
+  margin-bottom: 22px;
 }
 
 #show6 {
-  position: absolute;
-  top: 2760px;
   display: flex;
   align-self: flex-start;
   text-align: center;
@@ -936,8 +901,6 @@ ul#horizontal-list li {
 }
 
 .stories7 {
-  position: absolute;
-  top: 2865px;
   width: 295px;
   height: 81px;
   font-family: "Crete Round", sans-serif;
@@ -955,11 +918,11 @@ ul#horizontal-list li {
   padding: 0;
   padding-left: 12px;
   margin: 24px;
+  margin-top: 84px;
+  margin-bottom: 12px;
 }
 
 .passage7 {
-  position: absolute;
-  top: 2980px;
   width: 295px;
   height: 87px;
   font-family: "Inter", sans-serif;
@@ -974,11 +937,10 @@ ul#horizontal-list li {
   padding: 0;
   padding-left: 12px;
   margin: 0 24px;
+  margin-bottom: 12px;
 }
 
 .tags7 {
-  position: absolute;
-  top: 3070px;
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -990,11 +952,10 @@ ul#horizontal-list li {
   height: 40px;
   order: 5;
   flex-grow: 0;
+  margin-bottom: 22px;
 }
 
 #show7 {
-  position: absolute;
-  top: 3147px;
   display: flex;
   align-self: flex-start;
   text-align: center;
@@ -1060,7 +1021,6 @@ ul#horizontal-list li {
 
 .passage8 {
   display: flex;
-  position: relative;
   width: 327px;
   font-family: "Inter", serif;
   font-style: normal;
@@ -1079,7 +1039,6 @@ ul#horizontal-list li {
   align-self: flex-start;
   text-align: center;
   justify-content: center;
-  position: relative;
   padding: 12px;
   background: #ff6b00;
   order: 6;
@@ -1172,4 +1131,18 @@ ul#horizontal-list li {
   align-self: center;
   gap: 32px;
   padding-left: 0;
+}
+
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven {
+  background-image: url("images/bg.png");
+  background-repeat: no-repeat;
+  background-position-x: 24px;
+  width: 352px;
+  height: 386px;
+  margin-bottom: 24px;
 }
