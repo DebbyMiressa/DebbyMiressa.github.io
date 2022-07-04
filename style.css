@@ -146,10 +146,15 @@ body {
   margin: 0 0 120px;
 }
 
-.tags li {
-  display: inline-block;
+.tags li,
+.tags2 li,
+.tags3 li,
+.tags4 li,
+.tags5 li,
+.tags6 li,
+.tags7 li {
+  float: left;
   box-sizing: border-box;
-  align-content: center;
   padding: 10px 12px;
   background: #fff;
   border: 1px solid #8993a4;
@@ -158,104 +163,6 @@ body {
   font-weight: 500;
   font-size: 15px;
   color: #091e42;
-  flex: none;
-  flex-grow: 0;
-}
-
-.tags2 li {
-  display: inline-block;
-  box-sizing: border-box;
-  align-content: center;
-  padding: 10px 12px;
-  background-color: rgba(255 255 255/ 24%);
-  border: 1px solid #8993a4;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  color: #fff;
-  flex: none;
-  flex-grow: 0;
-}
-
-.tags3 li {
-  display: inline-block;
-  box-sizing: border-box;
-  align-content: center;
-  padding: 10px 12px;
-  background-color: rgba(255 255 255/ 24%);
-  border: 1px solid #8993a4;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  color: #fff;
-  flex: none;
-  flex-grow: 0;
-}
-
-.tags4 li {
-  display: inline-block;
-  box-sizing: border-box;
-  align-content: center;
-  padding: 10px 12px;
-  background-color: rgba(255 255 255/ 24%);
-  border: 1px solid #8993a4;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  color: #fff;
-  flex: none;
-  flex-grow: 0;
-}
-
-.tags5 li {
-  display: inline-block;
-  box-sizing: border-box;
-  align-content: center;
-  padding: 10px 12px;
-  background-color: rgba(255 255 255/ 24%);
-  border: 1px solid #8993a4;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  color: #fff;
-  flex: none;
-  flex-grow: 0;
-}
-
-.tags6 li {
-  display: inline-block;
-  box-sizing: border-box;
-  align-content: center;
-  padding: 10px 12px;
-  background-color: rgba(255 255 255/ 24%);
-  border: 1px solid #8993a4;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  color: #fff;
-  flex: none;
-  flex-grow: 0;
-}
-
-.tags7 li {
-  display: inline-block;
-  box-sizing: border-box;
-  align-content: center;
-  padding: 10px 12px;
-  background-color: rgba(255 255 255/ 24%);
-  border: 1px solid #8993a4;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  color: #fff;
-  flex: none;
-  flex-grow: 0;
 }
 
 .lfs li {
