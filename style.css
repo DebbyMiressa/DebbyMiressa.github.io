@@ -1,8 +1,10 @@
 body {
   background-color: #e5e5e5;
+  position: relative;
 }
 
 .container {
+  position: relative;
   display: grid;
   justify-content: center;
 }
@@ -1145,4 +1147,76 @@ ul#horizontal-list li {
   width: 352px;
   height: 386px;
   margin-bottom: 24px;
+}
+
+.contact-header {
+  text-align: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  order: 9;
+  background-color: #fff;
+  width: 375px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+}
+
+.form-inputs {
+  width: 80%;
+  margin: auto;
+}
+
+.form-inputs input {
+  width: 295px;
+  padding: 4px 3px;
+}
+
+.form-inputs textarea {
+  width: 327px;
+  margin: auto;
+}
+
+.form-inputs button {
+  display: flex;
+  align-self: flex-start;
+  text-align: center;
+  justify-content: center;
+  padding: 12px;
+  background: #ff6b00;
+  order: 6;
+  justify-items: left;
+  border: none;
+  width: 327px;
+  height: 48px;
+  margin: 0 24px 36px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+
+.form-inputs button:enabled {
+  background-color: #f55800;
+}
+.form-inputs button:hover {
+  background-color: #fff5e1;
+}
+
+.form-inputs button:active {
+  background-color: #e05304;
+}
+
+.form-inputs button:disabled {
+  background-color: #f4f1f0;
 }
