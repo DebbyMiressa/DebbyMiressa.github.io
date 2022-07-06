@@ -14,7 +14,7 @@
 ## Getting Started
 
 - Click the link below to get started with a live demo
-  [homepage.html](https://htmlpreview.github.io/?https://github.com/DebbyMiressa/MyPortfolio/blob/recent-work-and-about/homepage.html)
+  [homepage.html](https://htmlpreview.github.io/?https://github.com/DebbyMiressa/MyPortfolio/blob/add-contact-form/index.html)
 
 ### Prerequisites
 - Have git installed.

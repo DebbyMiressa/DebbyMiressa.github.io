@@ -268,6 +268,7 @@ body {
   line-height: 44px;
   display: flex;
   flex-direction: column;
+  order: 9;
   align-self: center;
   color: #fff;
   list-style: none;
@@ -1145,4 +1146,127 @@ ul#horizontal-list li {
   width: 352px;
   height: 386px;
   margin-bottom: 24px;
+}
+
+.contact-header {
+  width: 327px;
+  height: 216px;
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 120px;
+}
+
+.navigation {
+  position: absolute;
+  top: 6780px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: #fff;
+  width: 375px;
+  height: 75px;
+}
+
+ul#horizontal-list-2 {
+  list-style: none;
+  position: relative;
+  top: 15px;
+  left: 23%;
+}
+
+ul#horizontal-list-2 li {
+  display: inline;
+  padding: 5px;
+}
+
+.home-indicator {
+  position: absolute;
+  top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+.contact-form {
+  position: absolute;
+  top: 5940px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: #fff;
+  width: 375px;
+  height: 844px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  gap: 24px;
+  margin: 24px;
+  margin-top: 73px;
+}
+
+.form-inputs input {
+  width: 295px;
+  height: 18px;
+  border: none;
+}
+
+.form-inputs textarea {
+  width: 327px;
+  height: 114px;
+  border: none;
+  background: #fbf8f7;
+}
+
+.form-inputs button {
+  display: flex;
+  align-self: flex-start;
+  text-align: center;
+  justify-content: center;
+  padding: 12px;
+  background: #ff6b00;
+  justify-items: center;
+  justify-self: center;
+  border: none;
+  width: 131px;
+  height: 48px;
+  margin-left: 32.5%;
+  margin-bottom: 72px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+
+.form-inputs button:enabled {
+  background-color: #f55800;
+}
+
+.form-inputs button:hover {
+  background-color: #fff5e1;
+}
+
+.form-inputs button:active {
+  background-color: #e05304;
+}
+
+.form-inputs button:disabled {
+  background-color: #f4f1f0;
 }
