@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
     <title>My Portfolio</title>
   </head>
   <body>
@@ -19,19 +20,26 @@
           <div class="logo">
             <a id="anc" href="#">Debby Miressa</a>
           </div>
-          <div class="space"></div>
+          <div class="space">
+            <a class="port" href="#">Portfolio</a>
+            <a class="bout" href="#">About</a>
+            <a class="cont" href="#">Contact</a>
+            <a class="mail"><img src="images/Mail.png" alt="mail"></a>
+          </div>
           <button id="menu" class="button">
             <img src="images/Menu@1x.png" alt="Header" />
           </button>
         </header>
 
         <section class="headline">
+          <div class="main-headline">
           <h1 id="primarytext">Hey There. I'm Debby</h1>
           <h2 id="supportingtext">I'm a Software Developer</h2>
           <p id="description">
             I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you
             need coded, don’t hestiate to contact me.
           </p>
+          </div>
           <div class="socialmedia">
             <ul id="horizontal-list">
               <li>
@@ -55,13 +63,19 @@
       </div>
       <div>
         <section class="recentworks">
+          <div class="zero">
           <h1 class="recent">My Recent Works</h1>
           <div class="vector">
             <img src="images/Vector.png" alt="line" />
           </div>
-          <div class="gymfit">
-            <img src="images/gymfit.png" alt="gymfit" />
+          <div class="deskline">
+            <img src="images/deskline.png" alt="deskline">
           </div>
+          <div class="gymfit">
+            <img id="gymfitimg" src="images/gymfit.png" alt="gymfit" />
+          </div>
+          </div>
+          <div class="one">
           <h2 class="stories">Multi-Post Stories</h2>
           <p class="passage">
             A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the
@@ -73,6 +87,7 @@
             <li>JavaScript</li>
           </ul>
           <button id="show" class="button">See Project</button>
+          </div>
           <div class="two">
             <h2 class="stories2">Professional Art Printing Data</h2>
             <p class="passage2">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
@@ -144,8 +159,11 @@
           <div class="endline">
             <img src="images/endline.png" alt="line" />
           </div>
-          <ul class="lfs">
-            <li>
+          <div class="deskendline">
+            <img src="images/deskendline.png" alt="deskendline">
+          </div>
+          <div class="lfs">
+            <div>
               <div class="first">Languages</div>
               <ul class="f">
                 <li>JavaScript</li>
@@ -153,8 +171,8 @@
                 <li>CSS</li>
                 <li>HTML</li>
               </ul>
-            </li>
-            <li>
+            </div>
+            <div>
               <div class="second">Frameworks</div>
               <ul class="s">
                 <li>Bootstrap</li>
@@ -163,8 +181,8 @@
                 <li>CapyBara</li>
                 <li>Selenium</li>
               </ul>
-            </li>
-            <li>
+            </div>
+            <div>
               <div class="third">Skills</div>
               <ul class="t">
                 <li>Codekit</li>
@@ -173,8 +191,8 @@
                 <li>Gitlab</li>
                 <li>Terminal</li>
               </ul>
-            </li>
-          </ul>
+            </div>
+          </div>
         </section>
       </div>
     </div>
@@ -182,13 +200,18 @@
       <section class="contact-form">
       <h1 class="contact-header">I'm always interested in hearing about new projects, so if you'd like to chat please get in</h1>
       <form action="https://formspree.io/f/xbjwvdvq" method="post">
+        <div></div>
         <div class="form-inputs">
           <input name="fullname" type="text" required maxlength="30" placeholder="Full Name" />
-          <img width="327" src="images/footerline.png" alt="line">
+        </div>
+        <div class="footerone">
+          <img src="images/footerline.png" alt="line">
         </div>
         <div class="form-inputs">
           <input name="email" type="email" required placeholder="Email Address" />
-          <img width="327" src="images/footerline.png" alt="line">
+        </div>
+        <div class="footertwo">
+          <img src="images/footerline.png" alt="line">
         </div>
         <div class="form-inputs">
           <textarea name="msg" required maxlength="500" placeholder="Enter text Here"></textarea>
@@ -197,7 +220,9 @@
           <button type="submit">Get in touch</button>
         </div>
       </form>
-      <img src="images/footerline.png" alt="footerline">
+      <div class="footerline">
+        <img src="images/footerline.png" alt="footerline">
+      </div>
       </section>
       <div class="navigation">
         <div class="socialmedia">

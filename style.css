@@ -1,4 +1,6 @@
 body {
+  max-width: 100%;
+  overflow-x: hidden;
   background-color: #e5e5e5;
 }
 
@@ -33,6 +35,22 @@ body {
   font-size: 18px;
   line-height: 24px;
   display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.port,
+.bout,
+.cont,
+.mail {
+  text-decoration: none;
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  display: none;
   align-items: center;
   text-align: center;
   color: #fff;
@@ -333,6 +351,10 @@ ul#horizontal-list li {
   margin-bottom: 80px;
   margin-left: 24px;
   align-self: center;
+}
+
+.deskline {
+  display: none;
 }
 
 .gymfit {
@@ -1087,6 +1109,12 @@ ul#horizontal-list li {
   padding-bottom: 10px;
 }
 
+.deskendline {
+  display: none;
+  visibility: hidden;
+  margin-left: 142px;
+}
+
 .lfs {
   display: flex;
   flex-direction: column;
@@ -1097,23 +1125,44 @@ ul#horizontal-list li {
   gap: 44px;
   padding-left: 0;
   background-image: url("images/Rectangle55.png"), url("images/Rectangle56.png"), url("images/Rectangle57.png");
-  background-position: 20% 11%, 17% 36.5%, 32% 66%;
+  background-position: 20% 11%, 17% 38%, 30% 69.3%;
   background-repeat: no-repeat, no-repeat, no-repeat;
 }
 
 .first {
   display: flex;
   margin-top: 120px;
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  margin-left: 110px;
 }
 
 .second {
   display: flex;
-  margin-top: 350px;
+  margin-top: 0;
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  margin-left: 100px;
 }
 
 .third {
   display: flex;
-  margin-top: 630px;
+  margin-top: 0;
+  font-family: "Inter", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  margin-left: 145px;
 }
 
 .first,
@@ -1165,7 +1214,7 @@ ul#horizontal-list li {
 
 .navigation {
   position: absolute;
-  top: 6780px;
+  top: 6764px;
   margin-left: auto;
   margin-right: auto;
   left: 0;
@@ -1199,7 +1248,7 @@ ul#horizontal-list-2 li {
 
 .contact-form {
   position: absolute;
-  top: 5940px;
+  top: 5925px;
   margin-left: auto;
   margin-right: auto;
   left: 0;
@@ -1269,4 +1318,478 @@ ul#horizontal-list-2 li {
 
 .form-inputs button:disabled {
   background-color: #f4f1f0;
+}
+
+@media (min-width: 768px) {
+  .toolbar {
+    width: 100vw;
+  }
+
+  .headline {
+    display: flex;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 93vh;
+    background: #1c1a19;
+    background-image: url("images/Illustration-header.png");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+  }
+
+  #primarytext {
+    width: 400px;
+    height: 160px;
+    font-family: "Crete Round", serif;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 82px;
+    margin: 120px 24px 0;
+    letter-spacing: 0.37px;
+    color: #ff6b00;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  #supportingtext {
+    width: 566px;
+    height: 24px;
+    font-family: "Inter", serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    margin: 24px;
+    color: #fff;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  #description {
+    width: 520px;
+    height: 123px;
+    font-family: "Inter", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    padding: 0;
+    margin: 0 24px;
+    color: #f4f5f7;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+  }
+
+  .socialmedia {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    padding: 0;
+    margin: 0;
+  }
+
+  ul#horizontal-list li {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .main-headline {
+    position: absolute;
+    top: 100px;
+    margin-left: 100px;
+  }
+
+  .port {
+    margin-left: 757px;
+  }
+
+  .port,
+  .bout,
+  .cont,
+  .mail {
+    display: flex;
+    margin-right: 32px;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  .recentworks {
+    width: 100vw;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+  }
+
+  .recent {
+    display: flex;
+    color: #091e42;
+    width: 315px;
+    height: 52px;
+    margin-left: -220px;
+    margin-top: 135px;
+    align-self: left;
+    justify-self: left;
+  }
+
+  .vector {
+    display: none;
+  }
+
+  .deskline {
+    display: flex;
+    position: absolute;
+    margin-left: 492.5px;
+    margin-top: 161px;
+  }
+
+  .gymfit {
+    width: 684px;
+    height: 448px;
+    flex: none;
+    padding: 0;
+    margin-top: 114px;
+    margin-left: 141px;
+  }
+
+  #gymfitimg {
+    content: url("images/gymfitimg.png");
+  }
+
+  .zero,
+  .one {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .one {
+    margin-top: 301px;
+  }
+
+  .two {
+    background-image: url("images/mid1.png");
+    background-repeat: no-repeat;
+    background-position-x: 24px;
+    width: 369px;
+    height: 435px;
+    margin: 24px;
+    margin-left: 141.5px;
+    justify-content: bottom;
+  }
+
+  .three {
+    background-image: url("images/mid2.png");
+    background-repeat: no-repeat;
+    background-position-x: 24px;
+    width: 369px;
+    height: 435px;
+    margin: 24px;
+  }
+
+  .four {
+    background-image: url("images/mid3.png");
+    background-repeat: no-repeat;
+    background-position-x: 24px;
+    width: 369px;
+    height: 435px;
+    margin: 24px;
+  }
+
+  .five {
+    background-image: url("images/mid4.png");
+    background-repeat: no-repeat;
+    background-position-x: 24px;
+    width: 369px;
+    height: 435px;
+    margin: 24px;
+    margin-left: 141.5px;
+    margin-bottom: 130px;
+  }
+
+  .six {
+    background-image: url("images/mid5.png");
+    background-repeat: no-repeat;
+    background-position-x: 24px;
+    width: 369px;
+    height: 435px;
+    margin: 24px;
+    margin-bottom: 130px;
+  }
+
+  .seven {
+    background-image: url("images/mid6.png");
+    background-repeat: no-repeat;
+    background-position-x: 24px;
+    width: 369px;
+    height: 435px;
+    margin: 24px;
+    margin-bottom: 130px;
+  }
+
+  .stories2,
+  .stories3,
+  .stories4,
+  .stories5,
+  .stories6,
+  .stories7 {
+    margin-top: 185px;
+  }
+
+  #show2,
+  #show3,
+  #show4,
+  #show5,
+  #show6,
+  #show7 {
+    visibility: hidden;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    grid-template-rows: 230px 160px;
+    background-image: url("images/about.png");
+    background-repeat: no-repeat;
+    background-position-y: 20%;
+    background-position-x: right;
+    background-size: 672.39px 352.38px;
+    background-color: #1c1a19;
+    width: 100vw;
+    height: 800px;
+  }
+
+  .aboutme {
+    display: flex;
+    width: 566px;
+    height: 78px;
+    font-family: "Crete Round", serif;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 81.5px;
+    margin: 130px 24px 0;
+    margin-left: 142px;
+    margin-bottom: 24px;
+    letter-spacing: 0.37px;
+    color: #ff6b00;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .passage8 {
+    display: flex;
+    width: 566px;
+    font-family: "Inter", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #f4f5f7;
+    flex-grow: 0;
+    padding: 0;
+    margin: 0 24px;
+    margin-left: 142px;
+  }
+
+  #resume {
+    display: flex;
+    align-self: flex-start;
+    text-align: center;
+    justify-content: center;
+    padding: 12px;
+    background: #ff6b00;
+    justify-items: left;
+    border: none;
+    width: 161px;
+    height: 48px;
+    margin: 24px;
+    margin-left: 142px;
+    font-family: "Inter", serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #fff;
+  }
+
+  .endline {
+    visibility: hidden;
+  }
+
+  .deskendline {
+    display: block;
+    position: relative;
+    top: 400px;
+    visibility: visible;
+  }
+
+  .lfs {
+    display: flex;
+    gap: 44px;
+    padding-left: 0;
+    background-image: url("images/Rectangle55.png"), url("images/Rectangle56.png"), url("images/Rectangle57.png");
+    background-position: 9.6% 14.5%, 41% 14.7%, 78.3% 14.5%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    height: 600px;
+  }
+
+  .first,
+  .second,
+  .third {
+    font-family: "Inter", serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+  }
+
+  .first {
+    margin-top: 73px;
+    margin-left: 13%;
+  }
+
+  .second {
+    margin: 0;
+    position: relative;
+    top: -300px;
+    left: 44.4%;
+  }
+
+  .third {
+    margin: 0;
+    position: relative;
+    top: -640px;
+    left: 81%;
+  }
+
+  .f,
+  .s,
+  .t {
+    position: relative;
+    top: 0;
+    gap: 32px;
+    padding-left: 0;
+    margin: 0;
+  }
+
+  .f {
+    top: 0;
+    left: -500px;
+  }
+
+  .s {
+    top: -285px;
+    left: 0;
+  }
+
+  .t {
+    top: -620px;
+    left: 500px;
+  }
+
+  .contact-form {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 484%;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    width: 100vw;
+    height: 614px;
+  }
+
+  .contact-header {
+    display: flex;
+    align-self: center;
+    width: 420px;
+    height: 256px;
+    font-family: "Inter", serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #172b4d;
+    margin-left: 135px;
+    margin-right: 0;
+    margin-top: 0;
+  }
+
+  .footerline,
+  .footerone,
+  .footertwo {
+    display: none;
+  }
+
+  .form-inputs input {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 298px;
+    height: 18px;
+  }
+
+  .form-inputs textarea {
+    width: 684px;
+    height: 114px;
+    border: none;
+    background: #fbf8f7;
+  }
+
+  .form-inputs button {
+    padding: 12px;
+    background: #ff6b00;
+    border: none;
+    width: 131px;
+    height: 48px;
+    margin-left: 0;
+    margin-bottom: 72px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #fff;
+  }
+
+  .navigation {
+    position: absolute;
+    top: 4448px;
+    margin: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #fff;
+    width: 100%;
+    height: 72px;
+  }
+
+  ul#horizontal-list-2 {
+    list-style: none;
+  }
+
+  ul#horizontal-list-2 li {
+    display: inline;
+    padding: 5px;
+  }
+
+  .home-indicator {
+    display: none;
+  }
 }
