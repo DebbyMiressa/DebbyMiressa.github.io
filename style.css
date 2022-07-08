@@ -1353,6 +1353,15 @@ ul#horizontal-list-2 li {
     background-repeat: no-repeat;
   }
 
+  .motion {
+    transition: transform 2s, font-size 2s;
+  }
+
+  .motion:hover {
+    transform: rotate(-15deg);
+    font-size: 120%;
+  }
+
   #primarytext {
     width: 400px;
     height: 160px;
@@ -1403,7 +1412,7 @@ ul#horizontal-list-2 li {
     animation-duration: 3s;
     animation-name: slidein;
     animation-iteration-count: infinite;
-    animation-direction: alternate; 
+    animation-direction: alternate;
   }
 
   @keyframes slidein {
@@ -1411,7 +1420,7 @@ ul#horizontal-list-2 li {
       margin-left: 10%;
       width: 33%;
     }
-  
+
     to {
       margin-left: 0%;
       width: 33%;
