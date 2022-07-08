@@ -1451,6 +1451,11 @@ ul#horizontal-list-2 li {
     flex-wrap: wrap;
   }
 
+  .topp {
+    display: flex;
+    flex-wrap: nowrap;
+  } 
+
   .recentworkscontainer {
     display: grid;
     grid-template-columns: auto auto auto;
