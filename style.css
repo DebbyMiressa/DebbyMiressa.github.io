@@ -1400,6 +1400,22 @@ ul#horizontal-list-2 li {
     flex: none;
     order: 2;
     flex-grow: 0;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; 
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 10%;
+      width: 33%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 33%;
+    }
   }
 
   .socialmedia {
