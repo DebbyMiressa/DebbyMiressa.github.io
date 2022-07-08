@@ -23,8 +23,6 @@ body {
   padding: 10px 12px;
   width: 121px;
   height: 44px;
-  left: 12px;
-  top: 0;
 }
 
 #anc {
@@ -475,6 +473,7 @@ ul#horizontal-list li {
   flex-grow: 0;
   padding: 0;
   padding-left: 12px;
+  padding-top: 84px;
   margin: 24px;
   margin-top: 84px;
   margin-bottom: 12px;
@@ -568,6 +567,7 @@ ul#horizontal-list li {
   flex-grow: 0;
   padding: 0;
   padding-left: 12px;
+  padding-top: 84px;
   margin: 24px;
   margin-top: 84px;
   margin-bottom: 12px;
@@ -661,6 +661,7 @@ ul#horizontal-list li {
   flex-grow: 0;
   padding: 0;
   padding-left: 12px;
+  padding-top: 84px;
   margin: 24px;
   margin-top: 84px;
   margin-bottom: 12px;
@@ -754,6 +755,7 @@ ul#horizontal-list li {
   flex-grow: 0;
   padding: 0;
   padding-left: 12px;
+  padding-top: 84px;
   margin: 24px;
   margin-top: 84px;
   margin-bottom: 12px;
@@ -847,6 +849,7 @@ ul#horizontal-list li {
   flex-grow: 0;
   padding: 0;
   padding-left: 12px;
+  padding-top: 84px;
   margin: 24px;
   margin-top: 84px;
   margin-bottom: 12px;
@@ -940,6 +943,7 @@ ul#horizontal-list li {
   flex-grow: 0;
   padding: 0;
   padding-left: 12px;
+  padding-top: 84px;
   margin: 24px;
   margin-top: 84px;
   margin-bottom: 12px;
@@ -1225,6 +1229,19 @@ ul#horizontal-list li {
   height: 75px;
 }
 
+.socialmedia2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  width: 250px;
+  height: 40px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin: 0 0 120px;
+}
+
 ul#horizontal-list-2 {
   list-style: none;
   position: relative;
@@ -1343,7 +1360,7 @@ ul#horizontal-list-2 li {
     font-weight: 400;
     font-size: 72px;
     line-height: 82px;
-    margin: 120px 24px 0;
+    margin: 0 24px 24px 0;
     letter-spacing: 0.37px;
     color: #ff6b00;
     flex: none;
@@ -1361,6 +1378,7 @@ ul#horizontal-list-2 li {
     display: flex;
     align-items: center;
     margin: 24px;
+    margin-left: 0;
     color: #fff;
     flex: none;
     order: 1;
@@ -1377,6 +1395,7 @@ ul#horizontal-list-2 li {
     line-height: 32px;
     padding: 0;
     margin: 0 24px;
+    margin-left: 0;
     color: #f4f5f7;
     flex: none;
     order: 2;
@@ -1386,7 +1405,7 @@ ul#horizontal-list-2 li {
   .socialmedia {
     width: 50%;
     position: absolute;
-    top: 50%;
+    top: 50vh;
     padding: 0;
     margin: 0;
   }
@@ -1398,13 +1417,16 @@ ul#horizontal-list-2 li {
   }
 
   .main-headline {
-    position: absolute;
-    top: 100px;
-    margin-left: 100px;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 125px;
   }
 
   .port {
-    margin-left: 757px;
+    margin-left: 1000px;
   }
 
   .port,
@@ -1427,6 +1449,12 @@ ul#horizontal-list-2 li {
     padding: 0;
     margin: 0;
     flex-wrap: wrap;
+  }
+
+  .recentworkscontainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100vw;
   }
 
   .recent {
@@ -1540,7 +1568,7 @@ ul#horizontal-list-2 li {
   .stories5,
   .stories6,
   .stories7 {
-    margin-top: 185px;
+    margin-top: 100px;
   }
 
   #show2,
@@ -1563,7 +1591,7 @@ ul#horizontal-list-2 li {
     background-size: 672.39px 352.38px;
     background-color: #1c1a19;
     width: 100vw;
-    height: 800px;
+    height: 1000px;
   }
 
   .aboutme {
@@ -1632,13 +1660,16 @@ ul#horizontal-list-2 li {
   }
 
   .lfs {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto;
     gap: 44px;
-    padding-left: 0;
     background-image: url("images/Rectangle55.png"), url("images/Rectangle56.png"), url("images/Rectangle57.png");
-    background-position: 9.6% 14.5%, 41% 14.7%, 78.3% 14.5%;
+    background-position: 7% 3.5%, 41.4% 4%, 80% 5%;
     background-repeat: no-repeat, no-repeat, no-repeat;
-    height: 600px;
+    height: 800px;
+    margin-top: 146.73px;
+    padding-bottom: 141.5px;
+    padding-left: 10%;
   }
 
   .first,
@@ -1653,54 +1684,37 @@ ul#horizontal-list-2 li {
   }
 
   .first {
-    margin-top: 73px;
-    margin-left: 13%;
-  }
-
-  .second {
     margin: 0;
-    position: relative;
-    top: -300px;
-    left: 44.4%;
-  }
-
-  .third {
-    margin: 0;
-    position: relative;
-    top: -640px;
-    left: 81%;
   }
 
   .f,
   .s,
   .t {
     position: relative;
-    top: 0;
+    text-align: left;
     gap: 32px;
     padding-left: 0;
     margin: 0;
   }
 
   .f {
-    top: 0;
-    left: -500px;
+    top: 20px;
+    left: -36%;
   }
 
   .s {
-    top: -285px;
-    left: 0;
+    left: -20%;
   }
 
   .t {
-    top: -620px;
-    left: 500px;
+    left: -5%;
   }
 
   .contact-form {
     display: flex;
     align-items: center;
-    position: absolute;
-    top: 484%;
+    position: relative;
+    top: 226px;
     margin: 0;
     margin-left: auto;
     margin-right: auto;
@@ -1766,8 +1780,8 @@ ul#horizontal-list-2 li {
   }
 
   .navigation {
-    position: absolute;
-    top: 4448px;
+    position: relative;
+    top: 228px;
     margin: 0;
     left: 0;
     right: 0;
@@ -1778,6 +1792,11 @@ ul#horizontal-list-2 li {
     background-color: #fff;
     width: 100%;
     height: 72px;
+  }
+
+  .socialmedia2 {
+    position: relative;
+    top: 50px;
   }
 
   ul#horizontal-list-2 {
