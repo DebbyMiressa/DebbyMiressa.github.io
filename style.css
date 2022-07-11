@@ -1555,14 +1555,15 @@ ul#horizontal-list-2 li {
     padding: 0;
     margin: 0 24px;
   }
-  
-  .zero,
-  .one {
+
+  .zero {
     display: flex;
     flex-direction: column;
   }
 
   .one {
+    display: flex;
+    flex-direction: column;
     margin-top: 301px;
   }
 
