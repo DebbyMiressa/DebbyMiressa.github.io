@@ -1358,6 +1358,15 @@ ul#horizontal-list-2 li {
     background-repeat: no-repeat;
   }
 
+  .motion {
+    transition: transform 2s, font-size 2s;
+  }
+
+  .motion:hover {
+    transform: rotate(-15deg);
+    font-size: 120%;
+  }
+
   #primarytext {
     width: 400px;
     height: 160px;
@@ -1405,6 +1414,22 @@ ul#horizontal-list-2 li {
     flex: none;
     order: 2;
     flex-grow: 0;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 10%;
+      width: 33%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 33%;
+    }
   }
 
   .socialmedia {
@@ -1502,13 +1527,48 @@ ul#horizontal-list-2 li {
     content: url("images/gymfitimg.png");
   }
 
-  .zero,
-  .one {
+  .stories {
+    width: 448px;
+    height: 48px;
+    font-family: "Crete Round", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    color: #091e42;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding: 0;
+    margin: 24px 24px 12px;
+  }
+
+  .passage {
+    width: 448px;
+    height: 140px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #091e42;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding: 0;
+    margin: 0 24px;
+  }
+
+  .zero {
     display: flex;
     flex-direction: column;
   }
 
   .one {
+    display: flex;
+    flex-direction: column;
     margin-top: 301px;
   }
 
@@ -1667,6 +1727,14 @@ ul#horizontal-list-2 li {
     position: relative;
     top: 400px;
     visibility: visible;
+  }
+
+  .expand {
+    width: 80vw;
+  }
+
+  .expander {
+    width: 60vw;
   }
 
   .lfs {

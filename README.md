@@ -12,7 +12,7 @@
 ## Getting Started
 
 - Click the link to get started with a live demo
-  [index.html](https://htmlpreview.github.io/?https://github.com/DebbyMiressa/MyPortfolio/blob/add-contact-form/index.html)
+  [index.html](https://debbymiressa.github.io/)
 
 ### Prerequisites
 
