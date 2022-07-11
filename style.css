@@ -1522,6 +1522,40 @@ ul#horizontal-list-2 li {
     content: url("images/gymfitimg.png");
   }
 
+  .stories {
+    width: 448px;
+    height: 48px;
+    font-family: "Crete Round", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    color: #091e42;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding: 0;
+    margin: 24px 24px 12px;
+  }
+
+  .passage {
+    width: 448px;
+    height: 140px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #091e42;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding: 0;
+    margin: 0 24px;
+  } 
+  
   .zero,
   .one {
     display: flex;
@@ -1687,6 +1721,14 @@ ul#horizontal-list-2 li {
     position: relative;
     top: 400px;
     visibility: visible;
+  }
+
+  .expand {
+    width: 80vw;
+  }
+
+  .expander {
+    width: 60vw;
   }
 
   .lfs {
