@@ -97,7 +97,7 @@ body {
   width: 375px;
   height: 604px;
   background: #1c1a19;
-  background-image: url("images/illustration.png");
+  background-image: url("../images/illustration.png");
   background-position: bottom right;
   background-repeat: no-repeat;
 }
@@ -1028,7 +1028,7 @@ ul#horizontal-list li {
 .about {
   display: grid;
   grid-template-rows: 230px 160px;
-  background-image: url("images/Frame.png");
+  background-image: url("../images/Frame.png");
   background-repeat: no-repeat;
   background-position-y: 90%;
   background-position-x: right;
@@ -1133,7 +1133,7 @@ ul#horizontal-list li {
   text-align: center;
   gap: 44px;
   padding-left: 0;
-  background-image: url("images/Rectangle55.png"), url("images/Rectangle56.png"), url("images/Rectangle57.png");
+  background-image: url("../images/Rectangle55.png"), url("../images/Rectangle56.png"), url("../images/Rectangle57.png");
   background-position: 20% 11%, 17% 38%, 30% 69.3%;
   background-repeat: no-repeat, no-repeat, no-repeat;
 }
@@ -1198,7 +1198,7 @@ ul#horizontal-list li {
 .five,
 .six,
 .seven {
-  background-image: url("images/bg.png");
+  background-image: url("../images/bg.png");
   background-repeat: no-repeat;
   background-position-x: 24px;
   width: 352px;
@@ -1223,7 +1223,7 @@ ul#horizontal-list li {
 
 .navigation {
   position: absolute;
-  top: 6764px;
+  top: 7140px;
   margin-left: auto;
   margin-right: auto;
   left: 0;
@@ -1284,7 +1284,7 @@ ul#horizontal-list-2 li {
 
 .contact-form {
   position: absolute;
-  top: 5925px;
+  top: 6300px;
   margin-left: auto;
   margin-right: auto;
   left: 0;
@@ -1388,10 +1388,6 @@ ul#horizontal-list-2 li {
   padding: 24px;
 }
 
-.humber-icon:checked {
-
-}
-
 @media (min-width: 768px) {
   body {
     background-color: white;
@@ -1407,7 +1403,7 @@ ul#horizontal-list-2 li {
     width: 100vw;
     height: 93vh;
     background: #1c1a19;
-    background-image: url("images/Illustration-header.png");
+    background-image: url("../images/Illustration-header.png");
     background-position: bottom right;
     background-size: 40% auto;
     background-repeat: no-repeat;
@@ -1579,7 +1575,7 @@ ul#horizontal-list-2 li {
   }
 
   #gymfitimg {
-    content: url("images/gymfitimg.png");
+    content: url("../images/gymfitimg.png");
   }
 
   .stories {
@@ -1628,7 +1624,7 @@ ul#horizontal-list-2 li {
   }
 
   .two {
-    background-image: url("images/mid1.png");
+    background-image: url("../images/mid1.png");
     background-repeat: no-repeat;
     background-position-x: 24px;
     width: 369px;
@@ -1639,7 +1635,7 @@ ul#horizontal-list-2 li {
   }
 
   .three {
-    background-image: url("images/mid2.png");
+    background-image: url("../images/mid2.png");
     background-repeat: no-repeat;
     background-position-x: 24px;
     width: 369px;
@@ -1648,7 +1644,7 @@ ul#horizontal-list-2 li {
   }
 
   .four {
-    background-image: url("images/mid3.png");
+    background-image: url("../images/mid3.png");
     background-repeat: no-repeat;
     background-position-x: 24px;
     width: 369px;
@@ -1657,7 +1653,7 @@ ul#horizontal-list-2 li {
   }
 
   .five {
-    background-image: url("images/mid4.png");
+    background-image: url("../images/mid4.png");
     background-repeat: no-repeat;
     background-position-x: 24px;
     width: 369px;
@@ -1668,7 +1664,7 @@ ul#horizontal-list-2 li {
   }
 
   .six {
-    background-image: url("images/mid5.png");
+    background-image: url("../images/mid5.png");
     background-repeat: no-repeat;
     background-position-x: 24px;
     width: 369px;
@@ -1678,7 +1674,7 @@ ul#horizontal-list-2 li {
   }
 
   .seven {
-    background-image: url("images/mid6.png");
+    background-image: url("../images/mid6.png");
     background-repeat: no-repeat;
     background-position-x: 24px;
     width: 369px;
@@ -1742,7 +1738,7 @@ ul#horizontal-list-2 li {
     display: flex;
     flex-direction: column;
     grid-template-rows: 230px 160px;
-    background-image: url("images/about.png");
+    background-image: url("../images/about.png");
     background-repeat: no-repeat;
     background-position-y: 20%;
     background-position-x: right;
@@ -1829,7 +1825,7 @@ ul#horizontal-list-2 li {
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 44px;
-    background-image: url("images/Rectangle55.png"), url("images/Rectangle56.png"), url("images/Rectangle57.png");
+    background-image: url("../images/Rectangle55.png"), url("../images/Rectangle56.png"), url("../images/Rectangle57.png");
     background-position: 7% 3.5%, 41.4% 4%, 80% 5%;
     background-repeat: no-repeat, no-repeat, no-repeat;
     height: 800px;

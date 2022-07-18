@@ -8,6 +8,7 @@
 
 - HTML
 - CSS
+- Javascript
 
 ## Getting Started
 
@@ -18,6 +19,7 @@
 
 - Have git installed.
 - Have text editor installed.
+- Have CSS,HTML & JS Linters installed and configured.
 
 ## Authors
 
@@ -25,11 +27,12 @@
 
 - GitHub: [@debby_miressa](https://github.com/DebbyMiressa)
 - Twitter: [@debby_miressa](https://twitter.com/debby_miressa)
-- LinkedIn: [LinkdIn](linkedin.com/in/debby-miressa-0b85b6182)
+- LinkedIn: [LinkdIn](https://www.linkedin.com/in/debby-miressa-0b85b6182)
 
 ## 🤝 Contributing
 
 - GitHub: [@AceDavon](https://github.com/aceDavon)
+- Github: [@Iambenkis](https://github.com/iambenkis)
 
 Contributions, issues, and feature requests are welcome!
 
