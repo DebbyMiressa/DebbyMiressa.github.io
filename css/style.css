@@ -97,7 +97,7 @@ body {
   width: 375px;
   height: 604px;
   background: #1c1a19;
-  background-image: url("images/illustration.png");
+  background-image: url("../images/illustration.png");
   background-position: bottom right;
   background-repeat: no-repeat;
 }
@@ -298,6 +298,11 @@ body {
   font-weight: 400;
   font-size: 22px;
   line-height: 43px;
+}
+
+.menu-humber li {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #6f6c6b;
 }
 
 ul#horizontal-list {
@@ -1023,7 +1028,7 @@ ul#horizontal-list li {
 .about {
   display: grid;
   grid-template-rows: 230px 160px;
-  background-image: url("images/Frame.png");
+  background-image: url("../images/Frame.png");
   background-repeat: no-repeat;
   background-position-y: 90%;
   background-position-x: right;
@@ -1128,7 +1133,7 @@ ul#horizontal-list li {
   text-align: center;
   gap: 44px;
   padding-left: 0;
-  background-image: url("images/Rectangle55.png"), url("images/Rectangle56.png"), url("images/Rectangle57.png");
+  background-image: url("../images/Rectangle55.png"), url("../images/Rectangle56.png"), url("../images/Rectangle57.png");
   background-position: 20% 11%, 17% 38%, 30% 69.3%;
   background-repeat: no-repeat, no-repeat, no-repeat;
 }
@@ -1193,7 +1198,7 @@ ul#horizontal-list li {
 .five,
 .six,
 .seven {
-  background-image: url("images/bg.png");
+  background-image: url("../images/bg.png");
   background-repeat: no-repeat;
   background-position-x: 24px;
   width: 352px;
@@ -1218,7 +1223,7 @@ ul#horizontal-list li {
 
 .navigation {
   position: absolute;
-  top: 6764px;
+  top: 7140px;
   margin-left: auto;
   margin-right: auto;
   left: 0;
@@ -1240,6 +1245,20 @@ ul#horizontal-list li {
   order: 3;
   flex-grow: 0;
   margin: 0 0 120px;
+}
+
+.menu-humber li a {
+  text-decoration: none;
+  height: 24px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  color: #fff5e1;
 }
 
 ul#horizontal-list-2 {
@@ -1265,7 +1284,7 @@ ul#horizontal-list-2 li {
 
 .contact-form {
   position: absolute;
-  top: 5925px;
+  top: 6300px;
   margin-left: auto;
   margin-right: auto;
   left: 0;
@@ -1337,6 +1356,38 @@ ul#horizontal-list-2 li {
   background-color: #f4f1f0;
 }
 
+.humber {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+
+  --Example: 375px;
+
+  margin-left: calc((100% - var(--Example)) / 2);
+  width: 375px;
+  background: #3c3a39;
+  mix-blend-mode: normal;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  display: none;
+}
+
+.active-humber {
+  display: block;
+}
+
+.humber-icon {
+  display: flex;
+  float: right;
+}
+
+.menu-humber {
+  list-style: none;
+  padding: 24px;
+}
+
 @media (min-width: 768px) {
   body {
     background-color: white;
@@ -1352,7 +1403,7 @@ ul#horizontal-list-2 li {
     width: 100vw;
     height: 93vh;
     background: #1c1a19;
-    background-image: url("images/Illustration-header.png");
+    background-image: url("../images/Illustration-header.png");
     background-position: bottom right;
     background-size: 40% auto;
     background-repeat: no-repeat;
@@ -1474,7 +1525,7 @@ ul#horizontal-list-2 li {
   .recentworks {
     width: 100vw;
     display: flex;
-    align-items: left;
+    align-items: flex-start;
     justify-content: left;
     padding: 0;
     margin: 0;
@@ -1499,7 +1550,6 @@ ul#horizontal-list-2 li {
     height: 52px;
     margin-left: -220px;
     margin-top: 135px;
-    align-self: left;
     justify-self: left;
   }
 
@@ -1524,7 +1574,7 @@ ul#horizontal-list-2 li {
   }
 
   #gymfitimg {
-    content: url("images/gymfitimg.png");
+    content: url("../images/gymfitimg.png");
   }
 
   .stories {
@@ -1573,18 +1623,18 @@ ul#horizontal-list-2 li {
   }
 
   .two {
-    background-image: url("images/mid1.png");
+    background-image: url("../images/mid1.png");
     background-repeat: no-repeat;
     background-position-x: 24px;
     width: 369px;
     height: 435px;
     margin: 24px;
     margin-left: 141.5px;
-    justify-content: bottom;
+    justify-content: end;
   }
 
   .three {
-    background-image: url("images/mid2.png");
+    background-image: url("../images/mid2.png");
     background-repeat: no-repeat;
     background-position-x: 24px;
     width: 369px;
@@ -1593,7 +1643,7 @@ ul#horizontal-list-2 li {
   }
 
   .four {
-    background-image: url("images/mid3.png");
+    background-image: url("../images/mid3.png");
     background-repeat: no-repeat;
     background-position-x: 24px;
     width: 369px;
@@ -1602,7 +1652,7 @@ ul#horizontal-list-2 li {
   }
 
   .five {
-    background-image: url("images/mid4.png");
+    background-image: url("../images/mid4.png");
     background-repeat: no-repeat;
     background-position-x: 24px;
     width: 369px;
@@ -1613,7 +1663,7 @@ ul#horizontal-list-2 li {
   }
 
   .six {
-    background-image: url("images/mid5.png");
+    background-image: url("../images/mid5.png");
     background-repeat: no-repeat;
     background-position-x: 24px;
     width: 369px;
@@ -1623,7 +1673,7 @@ ul#horizontal-list-2 li {
   }
 
   .seven {
-    background-image: url("images/mid6.png");
+    background-image: url("../images/mid6.png");
     background-repeat: no-repeat;
     background-position-x: 24px;
     width: 369px;
@@ -1647,14 +1697,47 @@ ul#horizontal-list-2 li {
   #show5,
   #show6,
   #show7 {
+    position: relative;
+    top: 387px;
+    width: 345px;
     visibility: hidden;
+  }
+
+  .two:hover #show2,
+  .three:hover #show3,
+  .four:hover #show4,
+  .five:hover #show5,
+  .six:hover #show6,
+  .seven:hover #show7 {
+    visibility: visible;
+  }
+
+  .two:hover .stories2,
+  .two:hover .passage2,
+  .two:hover .tags2,
+  .three:hover .stories3,
+  .three:hover .passage3,
+  .three:hover .tags3,
+  .four:hover .stories4,
+  .four:hover .passage4,
+  .four:hover .tags4,
+  .five:hover .stories5,
+  .five:hover .passage5,
+  .five:hover .tags5,
+  .six:hover .stories6,
+  .six:hover .passage6,
+  .six:hover .tags6,
+  .seven:hover .stories7,
+  .seven:hover .passage7,
+  .seven:hover .tags7 {
+    display: none;
   }
 
   .about {
     display: flex;
     flex-direction: column;
     grid-template-rows: 230px 160px;
-    background-image: url("images/about.png");
+    background-image: url("../images/about.png");
     background-repeat: no-repeat;
     background-position-y: 20%;
     background-position-x: right;
@@ -1741,7 +1824,7 @@ ul#horizontal-list-2 li {
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 44px;
-    background-image: url("images/Rectangle55.png"), url("images/Rectangle56.png"), url("images/Rectangle57.png");
+    background-image: url("../images/Rectangle55.png"), url("../images/Rectangle56.png"), url("../images/Rectangle57.png");
     background-position: 7% 3.5%, 41.4% 4%, 80% 5%;
     background-repeat: no-repeat, no-repeat, no-repeat;
     height: 800px;
