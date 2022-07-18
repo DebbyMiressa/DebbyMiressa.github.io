@@ -1371,6 +1371,11 @@ ul#horizontal-list-2 li {
   background: #3c3a39;
   mix-blend-mode: normal;
   box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  display: none;
+}
+
+.active-humber {
+  display: block;
 }
 
 .humber-icon {
