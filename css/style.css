@@ -1525,7 +1525,7 @@ ul#horizontal-list-2 li {
   .recentworks {
     width: 100vw;
     display: flex;
-    align-items: left;
+    align-items: flex-start;
     justify-content: left;
     padding: 0;
     margin: 0;
@@ -1550,7 +1550,6 @@ ul#horizontal-list-2 li {
     height: 52px;
     margin-left: -220px;
     margin-top: 135px;
-    align-self: left;
     justify-self: left;
   }
 
@@ -1631,7 +1630,7 @@ ul#horizontal-list-2 li {
     height: 435px;
     margin: 24px;
     margin-left: 141.5px;
-    justify-content: bottom;
+    justify-content: end;
   }
 
   .three {
