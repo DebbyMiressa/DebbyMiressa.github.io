@@ -1422,11 +1422,8 @@ ul#horizontal-list-2 li {
   display: flex;
   align-self: flex-start;
   text-align: center;
-  justify-content: center;
   padding: 12px;
   background: #ff6b00;
-  justify-items: center;
-  justify-self: center;
   border: none;
   width: 131px;
   height: 48px;
@@ -1439,6 +1436,10 @@ ul#horizontal-list-2 li {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #fff;
+}
+
+.submission {
+  display: flex;
 }
 
 .form-inputs button:enabled {
@@ -1652,12 +1653,13 @@ ul#horizontal-list-2 li {
   }
 
   .motion {
-    transition: transform 2s, font-size 2s;
+    transition: transform 2s, font-size 1s;
   }
 
   .motion:hover {
-    transform: rotate(-15deg);
-    font-size: 120%;
+    transform: rotate(0deg);
+    font-size: 110%;
+    color: #e05304;
   }
 
   #primarytext {
@@ -2173,7 +2175,7 @@ ul#horizontal-list-2 li {
     width: 131px;
     height: 48px;
     margin-left: 0;
-    margin-bottom: 72px;
+    margin-bottom: -199px;
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
