@@ -41,8 +41,8 @@ const ProjectData = {
   },
   show2: {
     name: 'Project 2',
-    featuredImage: 'images/featured.svg',
-    featuredImage2: '',
+    featuredImage: 'images/gymfitimg.png',
+    featuredImage2: 'images/mobilemodal1.png',
     technologies: {
       tech1: 'CSS',
       tech2: 'HTML',
@@ -54,8 +54,8 @@ const ProjectData = {
   },
   show3: {
     name: 'Project 3',
-    featuredImage: '',
-    featuredImage2: '',
+    featuredImage: 'images/gymfitimg.png',
+    featuredImage2: 'images/mobilemodal1.png',
     technologies: {
       tech1: 'CSS',
       tech2: 'HTML',
@@ -67,8 +67,8 @@ const ProjectData = {
   },
   show4: {
     name: 'Project 4',
-    featuredImage: '',
-    featuredImage2: '',
+    featuredImage: 'images/gymfitimg.png',
+    featuredImage2: 'images/mobilemodal1.png',
     technologies: {
       tech1: 'CSS',
       tech2: 'HTML',
@@ -80,8 +80,8 @@ const ProjectData = {
   },
   show5: {
     name: 'Project 5',
-    featuredImage: '',
-    featuredImage2: '',
+    featuredImage: 'images/gymfitimg.png',
+    featuredImage2: 'images/mobilemodal1.png',
     technologies: {
       tech1: 'CSS',
       tech2: 'HTML',
@@ -93,8 +93,8 @@ const ProjectData = {
   },
   show6: {
     name: 'Project 6',
-    featuredImage: '',
-    featuredImage2: '',
+    featuredImage: 'images/gymfitimg.png',
+    featuredImage2: 'images/mobilemodal1.png',
     technologies: {
       tech1: 'CSS',
       tech2: 'HTML',
@@ -106,8 +106,8 @@ const ProjectData = {
   },
   show7: {
     name: 'Project 7',
-    featuredImage: '',
-    featuredImage2: '',
+    featuredImage: 'images/gymfitimg.png',
+    featuredImage2: 'images/mobilemodal1.png',
     technologies: {
       tech1: 'CSS',
       tech2: 'HTML',
