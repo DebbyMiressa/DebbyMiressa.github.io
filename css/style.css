@@ -1419,26 +1419,27 @@ ul#horizontal-list-2 li {
 }
 
 .form-inputs button {
+  display: flex; 
+  align-self: flex-start; 
+  text-align: center; 
+  padding: 12px; 
+  background: #ff6b00; 
+  border: none; 
+  width: 131px; 
+  height: 48px; 
+  margin-left: 32.5%; 
+  margin-bottom: 72px; 
+  font-family: "Inter", sans-serif; 
+  font-style: normal; 
+  font-weight: 700; 
+  font-size: 17px; 
+  line-height: 24px; 
+  letter-spacing: 0.03em; 
+  color: #fff; 
+}
+
+.submission {
   display: flex;
-  align-self: flex-start;
-  text-align: center;
-  justify-content: center;
-  padding: 12px;
-  background: #ff6b00;
-  justify-items: center;
-  justify-self: center;
-  border: none;
-  width: 131px;
-  height: 48px;
-  margin-left: 32.5%;
-  margin-bottom: 72px;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: #fff;
 }
 
 .form-inputs button:enabled {
@@ -2173,7 +2174,7 @@ ul#horizontal-list-2 li {
     width: 131px;
     height: 48px;
     margin-left: 0;
-    margin-bottom: 72px;
+    margin-bottom: -199px;
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 700;
