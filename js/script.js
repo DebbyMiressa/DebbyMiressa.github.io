@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 const menu = document.querySelector('#menu');
 const humberIcon = document.querySelector('.humber-icon');
 const humber = document.querySelector('.humber');

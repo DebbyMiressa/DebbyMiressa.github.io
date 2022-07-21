@@ -2,7 +2,7 @@
 
 # Project Name: My Portfolio
 
-> The project is aimed to create a portfolio website which incorporates a skeleton to a mobile version of the wesite. The repo is designed by upholding the professional documentation standards in each and every step of the process.
+> The project is aimed to create a portfolio website which incorporates a skeleton to a mobile version and a desktop version of the wesite. The repo is designed by upholding the professional documentation standards in each and every step of the process.
 
 ## Built With
 
@@ -23,7 +23,7 @@
 
 ## Authors
 
-👤
+👤 Debby Miressa
 
 - GitHub: [@debby_miressa](https://github.com/DebbyMiressa)
 - Twitter: [@debby_miressa](https://twitter.com/debby_miressa)
