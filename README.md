@@ -1,8 +1,9 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name: My Portfolio
+# Project Name
+## Portfolio Website
 
-> The project is aimed to create a portfolio website which incorporates a skeleton to a mobile version and a desktop version of the wesite. The repo is designed by upholding the professional documentation standards in each and every step of the process.
+> The project is aimed to create a portfolio website which includes both the mobile and desktop versions. The project is designed by upholding the professional documentation standards in each and every step of the process.
 
 ## Built With
 
@@ -12,14 +13,13 @@
 
 ## Getting Started
 
-- Click the link to get started with a live demo
-  [index.html](https://debbymiressa.github.io/)
+- Click [here](https://debbymiressa.github.io/) to get started with a live demo
 
 ### Prerequisites
 
 - Have git installed.
 - Have text editor installed.
-- Have CSS,HTML & JS Linters installed and configured.
+- Have CSS,HTML & JS Linters installed and configured. For further information, visit [this link](https://github.com/microverseinc/linters-config/blob/master/README.md) to get better understanding on each linters used on this project.
 
 ## Authors
 

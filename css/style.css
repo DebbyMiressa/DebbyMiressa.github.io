@@ -1419,23 +1419,23 @@ ul#horizontal-list-2 li {
 }
 
 .form-inputs button {
-  display: flex; 
-  align-self: flex-start; 
-  text-align: center; 
-  padding: 12px; 
-  background: #ff6b00; 
-  border: none; 
-  width: 131px; 
-  height: 48px; 
-  margin-left: 32.5%; 
-  margin-bottom: 72px; 
-  font-family: "Inter", sans-serif; 
-  font-style: normal; 
-  font-weight: 700; 
-  font-size: 17px; 
-  line-height: 24px; 
-  letter-spacing: 0.03em; 
-  color: #fff; 
+  display: flex;
+  align-self: flex-start;
+  text-align: center;
+  padding: 12px;
+  background: #ff6b00;
+  border: none;
+  width: 131px;
+  height: 48px;
+  margin-left: 32.5%;
+  margin-bottom: 72px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #fff;
 }
 
 .submission {
@@ -1653,12 +1653,13 @@ ul#horizontal-list-2 li {
   }
 
   .motion {
-    transition: transform 2s, font-size 2s;
+    transition: transform 2s, font-size 1s;
   }
 
   .motion:hover {
-    transform: rotate(-15deg);
-    font-size: 120%;
+    transform: rotate(0deg);
+    font-size: 110%;
+    color: #e05304;
   }
 
   #primarytext {
