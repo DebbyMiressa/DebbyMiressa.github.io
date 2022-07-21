@@ -154,7 +154,7 @@ function openModal(index) {
                                   <div><ul><li>${technologies.tech1}</li><li>${technologies.tech2}</li><li>${technologies.tech3}</li></ul></div>
                                   <div class='innerthree'>
                                     <div>
-                                      <img id="featured" src="${featuredImage}" width="100%" height="auto" alt="featured image">
+                                      <img id="featured" src="${featuredImage}" width="60%" max-height="auto" alt="featured image">
                                       <img id="featured2" src="${featuredImage2}" alt="featured image">
                                     </div>
                                    <div>

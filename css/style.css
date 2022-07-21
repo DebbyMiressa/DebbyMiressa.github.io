@@ -599,6 +599,7 @@ ul#horizontal-list li {
 
 #show:hover {
   background-color: #fff5e1;
+  color:#e05304;
 }
 
 #show:active {
@@ -696,8 +697,14 @@ ul#horizontal-list li {
   background-color: #f55800;
 }
 
-#show2:hover {
+#show2:hover,
+#show3:hover,
+#show4:hover,
+#show5:hover,
+#show6:hover,
+#show7:hover {
   background-color: #fff5e1;
+  color:#e05304;
 }
 
 #show2:active {
