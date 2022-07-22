@@ -120,7 +120,7 @@
           <form action="https://formspree.io/f/xbjwvdvq" method="post">
             <div></div>
             <div class="form-inputs">
-              <input name="fullname" type="text" required maxlength="30" placeholder="Full Name" />
+              <input name="fullname" id="fullname" type="text" required maxlength="30" placeholder="Full Name" />
             </div>
             <div class="footerone">
               <img src="images/footerline.png" alt="line" />
@@ -132,7 +132,7 @@
               <img src="images/footerline.png" alt="line" />
             </div>
             <div class="form-inputs">
-              <textarea name="msg" required maxlength="500" placeholder="Enter text Here"></textarea>
+              <textarea name="msg" id="text" required maxlength="500" placeholder="Enter text Here"></textarea>
             </div>
             <div class="form-inputs submission">
               <button id='submit' type="submit">Get in touch</button>
@@ -169,6 +169,7 @@
         </div>
       </footer>
     </div>
+    <script src="js/storage.js"></script>
     <script src="js/validation.js"></script>
     <script src="js/data.js"></script>
     <script src="js/menu.js"></script>
