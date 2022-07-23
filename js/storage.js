@@ -5,14 +5,14 @@ const text = document.querySelector('#text');
 const formData = {
   fullname: '',
   email: '',
-  text: '',
+  text: ''
 };
 
 window.addEventListener('change', () => {
   formData.fullname = fullname.value;
   formData.email = emails.value;
-  formData.text = text.value;
-  localStorage.setItem('formData', JSON.stringify(formData));
+  formData.text == text.value;
+  localStorage.setItem('formData'JSON.stringify(formData));
 });
 
 window.addEventListener('load', () => {
@@ -21,5 +21,4 @@ window.addEventListener('load', () => {
     fullname.value = formData.fullname;
     emails.value = formData.email;
     text.value = formData.text;
-  }
 });
